@@ -3,9 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 42px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px 50px;
+  gap: 60px;
+}
+.left-title{
+  width: 616px;
+  height: 205px;
+  font-size: 70px;
+  font-weight: 600;
+}
+.left-span{
+  color: #BE6516;
+}
+.hero-title{
+  width: 616px;
+  height: 170px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.about{
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
